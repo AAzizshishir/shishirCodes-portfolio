@@ -2,7 +2,6 @@
 import { projects } from "@/app/projectsData";
 import { motion } from "motion/react";
 import Link from "next/link";
-// import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Projects() {
   return (

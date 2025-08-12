@@ -5,7 +5,7 @@ Showcases projects, skills, and contact information with a clean design.
 
 ## 📌 Live Demo
 
-[🌐 Visit My Portfolio](https://your-live-link.com)
+[🌐 Visit My Portfolio](https://shishir-codes-portfolio.vercel.app/)
 
 ---
 
@@ -13,11 +13,7 @@ Showcases projects, skills, and contact information with a clean design.
 
 ### Home Page
 
-![Home Page Screenshot](./public/screenshots/home.png)
-
-### Projects Section
-
-![Projects Screenshot](./public/screenshots/projects.png)
+![Home Page Screenshot](./public/screenshot/screenshot.png)
 
 ---
 
