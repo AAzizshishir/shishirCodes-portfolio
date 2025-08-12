@@ -10,7 +10,7 @@ export const projects = [
     github: "https://github.com/AAzizshishir/Real-Estate",
     challenges:
       "Handling real-time updates and event scheduling was challenging.",
-    futurePlans: "Add admin panel and mobile app support.",
+    futurePlans: "Improve Dashboard, and add more features",
   },
   {
     id: 2,
@@ -22,8 +22,9 @@ export const projects = [
     live: "https://marathon-management-syst-fc189.web.app/",
     github: "https://github.com/AAzizshishir/marathon-management-system",
     challenges:
-      "Handling real-time updates and event scheduling was challenging.",
-    futurePlans: "Add admin panel and mobile app support.",
+      "The most challenging part of the MilesMatter project was implementing the countdown timer on the details page.I faced several technical hurdles, including time formatting, real-time updates, and ensuring a smooth user experience.Overcoming these challenges not only improved my skills but also significantly enhanced the overall quality of the project.",
+    futurePlans:
+      "I plan to significantly enhance the dashboard by making the interface more interactive and user-friendly.Upcoming features include real-time data updates, user analytics, and customizable widgets.These improvements will elevate both the functionality and the overall user experience of the project.",
   },
   {
     id: 3,
@@ -35,7 +36,8 @@ export const projects = [
     live: "https://spiffy-alpaca-999b2f.netlify.app/",
     github: "https://github.com/AAzizshishir/RecipeBook",
     challenges:
-      "Handling real-time updates and event scheduling was challenging.",
-    futurePlans: "Add admin panel and mobile app support.",
+      "Structuring and displaying ingredients in a readable format across diverse recipes was tricky.Creating a smooth experience for saving and retrieving favorite recipes required careful state management also challanging.",
+    futurePlans:
+      "Display calories, macros, and dietary tags for each recipe.Integrate voice commands and guided cooking mode for hands-free usability",
   },
 ];
