@@ -91,7 +91,10 @@ export default function Skills() {
   );
 
   return (
-    <section id="skills" className="py-16 px-4 lg:px-10 scroll-mt-16">
+    <section
+      id="skills"
+      className="py-16 px-4 lg:px-10 scroll-mt-36 md:scroll-mt-16"
+    >
       <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#38BDF8] text-center">
         Skills
       </h2>

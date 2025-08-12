@@ -6,7 +6,10 @@ import Link from "next/link";
 
 export default function Projects() {
   return (
-    <section className="py-16 px-4 lg:px-10 scroll-mt-16" id="projects">
+    <section
+      className="py-16 px-4 lg:px-10 scroll-mt-36 md:scroll-mt-16"
+      id="projects"
+    >
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold mb-12 text-center text-[#38BDF8]">
           My Projects

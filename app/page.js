@@ -1,6 +1,7 @@
 import AboutMe from "./components/aboutMe/AboutMe";
 import Banner from "./components/banner/Banner";
 import ContactMe from "./components/contactMe/ContactMe";
+import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projetcs";
 import Skills from "./components/skills/Skills";
@@ -14,6 +15,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <ContactMe />
+      <Footer />
     </div>
   );
 }

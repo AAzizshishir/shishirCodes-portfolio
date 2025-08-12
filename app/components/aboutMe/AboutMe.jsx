@@ -5,7 +5,10 @@ import aboutMe from "@/public/about/aboutMe.jpg";
 
 export default function AboutMe() {
   return (
-    <section id="about" className="py-16 px-4 md:px-10 scroll-mt-16">
+    <section
+      id="about"
+      className="py-16 px-4 md:px-10 scroll-mt-36 md:scroll-mt-16"
+    >
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left Image */}
         <motion.div

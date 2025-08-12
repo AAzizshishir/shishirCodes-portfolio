@@ -42,7 +42,10 @@ export default function ContactMe() {
   };
 
   return (
-    <section id="contact" className="py-16 px-4 lg:px-10 scroll-mt-16">
+    <section
+      id="contact"
+      className="py-16 px-4 lg:px-10 scroll-mt-36 md:scroll-mt-16"
+    >
       <div className="max-w-3xl mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#38BDF8] text-center">
           Contact Me
