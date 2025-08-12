@@ -5,16 +5,24 @@ const Links = () => {
   return (
     <ul className="flex items-center gap-4">
       <li>
-        <Link href={"#about"}>About</Link>
+        <Link href={"#about"} className="hover:text-[#38BDF8]">
+          About
+        </Link>
       </li>
       <li>
-        <Link href={"#skills"}>Skills</Link>
+        <Link href={"#skills"} className="hover:text-[#38BDF8]">
+          Skills
+        </Link>
       </li>
       <li>
-        <Link href={"#projects"}>Projects</Link>
+        <Link href={"#projects"} className="hover:text-[#38BDF8]">
+          Projects
+        </Link>
       </li>
       <li>
-        <Link href={"#contact"}>Contacts</Link>
+        <Link href={"#contact"} className="hover:text-[#38BDF8]">
+          Contacts
+        </Link>
       </li>
     </ul>
   );
