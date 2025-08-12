@@ -5,7 +5,7 @@ import Links from "./Links";
 
 const Navbar = () => {
   return (
-    <nav className="px-4 lg:px-10 py-4 flex items-center justify-between sticky top-0 left-0 w-full bg-[#0F172A]/90 backdrop-blur-md z-50">
+    <nav className="px-4 lg:px-10 py-4 flex items-center justify-between sticky top-0 left-0 w-full bg-[#0F172A]/90 backdrop-blur-md shadow-md z-50">
       {/* Logo */}
       <div>
         <Image
@@ -19,6 +19,9 @@ const Navbar = () => {
       {/* Links */}
       <div className="flex items-center gap-4">
         <Links />
+      </div>
+      {/* Button */}
+      <div>
         <button className="px-4 py-2 border">Download Resume</button>
       </div>
     </nav>
