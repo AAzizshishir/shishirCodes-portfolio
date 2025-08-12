@@ -14,7 +14,7 @@ const Links = () => {
         <Link href={"#projects"}>Projects</Link>
       </li>
       <li>
-        <Link href={"#contacts"}>Contacts</Link>
+        <Link href={"#contact"}>Contacts</Link>
       </li>
     </ul>
   );
