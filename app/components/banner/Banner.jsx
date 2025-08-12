@@ -17,7 +17,7 @@ export default function Banner() {
         transition={{ duration: 0.8, delay: 0.2 }}
         viewport={{ once: true }}
       >
-        <h1 className="text-5xl font-bold">Hi, I am ABDUL AZIZ SHISHIR</h1>
+        <h1 className="text-5xl font-bold">HI, I AM ABDUL AZIZ SHISHIR</h1>
         <h2 className="text-5xl text-[#38BDF8] font-bold my-4 uppercase">
           <Typewriter
             words={["Frontend Developer", "MERN STACK Developer"]}

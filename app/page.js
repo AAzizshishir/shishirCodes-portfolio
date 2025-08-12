@@ -1,7 +1,7 @@
 import AboutMe from "./components/aboutMe/AboutMe";
 import Banner from "./components/banner/Banner";
 import Navbar from "./components/navbar/Navbar";
-import Projects from "./components/projects/Projects";
+import Projects from "./components/projects/Projetcs";
 import Skills from "./components/skills/Skills";
 
 export default function Home() {

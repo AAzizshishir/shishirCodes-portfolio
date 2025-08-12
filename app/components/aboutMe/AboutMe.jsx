@@ -31,7 +31,7 @@ export default function AboutMe() {
           transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-cyan-400">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#38BDF8]">
             About Me
           </h2>
           <p className="text-gray-300 leading-relaxed mb-4">

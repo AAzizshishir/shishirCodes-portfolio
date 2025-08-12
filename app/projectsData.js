@@ -8,6 +8,9 @@ export const projects = [
     tech: ["React", "Tailwind", "Node.js", "MongoDB"],
     live: "https://real-estate-fb7a5.web.app/",
     github: "https://github.com/AAzizshishir/Real-Estate",
+    challenges:
+      "Handling real-time updates and event scheduling was challenging.",
+    futurePlans: "Add admin panel and mobile app support.",
   },
   {
     id: 2,
@@ -18,6 +21,9 @@ export const projects = [
     tech: ["React", "Tailwind", "Node.js", "MongoDB"],
     live: "https://marathon-management-syst-fc189.web.app/",
     github: "https://github.com/AAzizshishir/marathon-management-system",
+    challenges:
+      "Handling real-time updates and event scheduling was challenging.",
+    futurePlans: "Add admin panel and mobile app support.",
   },
   {
     id: 3,
@@ -28,5 +34,8 @@ export const projects = [
     tech: ["React", "Firebase", "Tailwind"],
     live: "https://spiffy-alpaca-999b2f.netlify.app/",
     github: "https://github.com/AAzizshishir/RecipeBook",
+    challenges:
+      "Handling real-time updates and event scheduling was challenging.",
+    futurePlans: "Add admin panel and mobile app support.",
   },
 ];
