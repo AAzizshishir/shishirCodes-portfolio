@@ -7,12 +7,15 @@ import { FaArrowRight } from "react-icons/fa";
 export default function Projects() {
   return (
     <section
-      className="mt-16 px-4 lg:px-10 scroll-mt-36 md:scroll-mt-16"
+      className="mt-20 px-4 lg:px-10 scroll-mt-36 md:scroll-mt-32"
       id="projects"
     >
-      <h2 className="text-4xl font-bold mb-6 text-center text-[#38BDF8]">
+      <h2 className="text-3xl md:text-4xl font-bold mb-2 text-center text-[#38BDF8]">
         My Projects
       </h2>
+      <p className="mb-6 text-[#f8fafc] text-center w-[420px] mx-auto">
+        Showcasing practical solutions built with modern web technologies.
+      </p>
 
       <div className="grid md:grid-cols-3 gap-6">
         {projects.map((project, index) => (

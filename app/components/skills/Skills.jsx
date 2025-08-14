@@ -81,12 +81,12 @@ export default function Skills() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
       id="skills"
-      className="mt-16 px-4 lg:px-10 scroll-mt-48 md:scroll-mt-24"
+      className="mt-20 px-4 lg:px-10 scroll-mt-48 md:scroll-mt-32"
     >
-      <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#38BDF8] text-center">
+      <h2 className="text-3xl md:text-4xl font-bold mb-2 text-[#38BDF8] text-center">
         Technical Proficiency
       </h2>
-      <p className="text-base mb-6 text-[#f8fafc] text-center">
+      <p className="mb-6 text-[#f8fafc] text-center w-[420px] mx-auto">
         Building seamless web experiences with modern tools and frameworks.
       </p>
       <div className="space-y-6">
