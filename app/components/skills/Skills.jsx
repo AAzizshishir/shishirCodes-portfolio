@@ -89,7 +89,7 @@ export default function Skills() {
       <p className="text-base mb-6 text-[#f8fafc] text-center">
         Building seamless web experiences with modern tools and frameworks.
       </p>
-      <div className="max-w-6xl mx-auto space-y-12">
+      <div className="space-y-6">
         {renderCategory("Frontend", frontend)}
         {renderCategory("Backend", backend)}
         {renderCategory("Tools & Others", tools)}
