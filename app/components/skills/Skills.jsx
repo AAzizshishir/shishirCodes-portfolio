@@ -20,17 +20,6 @@ import {
   SiShadcnui,
 } from "react-icons/si";
 
-const iconVariants = {
-  animate: {
-    x: [0, 30, 0],
-    transition: {
-      duration: 2,
-      repeat: Infinity,
-      ease: "easeInOut",
-    },
-  },
-};
-
 export default function Skills() {
   const frontend = [
     { icon: <FaHtml5 style={{ color: "#E34F26" }} />, label: "HTML" },
@@ -51,11 +40,11 @@ export default function Skills() {
   const backend = [
     { icon: <FaNodeJs style={{ color: "#339933" }} />, label: "Node.js" },
     { icon: <SiExpress style={{ color: "#000000" }} />, label: "Express.js" },
-  ];
-
-  const others = [
     { icon: <SiMongodb style={{ color: "#47A248" }} />, label: "MongoDB" },
     { icon: <SiFirebase style={{ color: "#FFCA28" }} />, label: "Firebase" },
+  ];
+
+  const tools = [
     { icon: <SiAxios style={{ color: "#5A29E4" }} />, label: "Axios" },
     {
       icon: <SiReacthookform style={{ color: "#EC5990" }} />,
@@ -67,42 +56,44 @@ export default function Skills() {
 
   const renderCategory = (title, skills) => (
     <div>
-      <motion.h2
-        variants={iconVariants}
-        animate="animate"
-        className="text-2xl font-bold mb-4"
-      >
+      <h2 className="text-xl md:text-2xl font-semibold mb-4 text-left text-[#38BDF8]">
         {title}
-      </motion.h2>
-      <div className="flex flex-wrap gap-6">
+      </h2>
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {skills.map((skill, index) => (
-          <motion.div
+          <div
             key={index}
-            variants={iconVariants}
-            animate="animate"
-            className="flex flex-col items-center text-center"
+            className="flex items-center justify-center gap-4 bg-[#122041] text-center py-2.5 rounded-md"
           >
-            <div className="text-6xl">{skill.icon}</div>
-            <p className="mt-2 text-white">{skill.label}</p>
-          </motion.div>
+            <div className="text-4xl">{skill.icon}</div>
+            <p className="mt-2 text-white text-lg font-semibold">
+              {skill.label}
+            </p>
+          </div>
         ))}
       </div>
     </div>
   );
 
   return (
-    <section
+    <motion.section
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1 }}
       id="skills"
-      className="py-16 px-4 lg:px-10 scroll-mt-36 md:scroll-mt-16"
+      className="py-16 px-4 lg:px-10 scroll-mt-48 md:scroll-mt-24"
     >
-      <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#38BDF8] text-center">
-        Skills
+      <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#38BDF8] text-center">
+        Technical Proficiency
       </h2>
-      <div className="max-w-5xl mx-auto space-y-10">
+      <p className="text-base mb-12 text-[#f8fafc] text-center">
+        Building seamless web experiences with modern tools and frameworks.
+      </p>
+      <div className="max-w-6xl mx-auto space-y-12">
         {renderCategory("Frontend", frontend)}
         {renderCategory("Backend", backend)}
-        {renderCategory("Others", others)}
+        {renderCategory("Tools & Others", tools)}
       </div>
-    </section>
+    </motion.section>
   );
 }

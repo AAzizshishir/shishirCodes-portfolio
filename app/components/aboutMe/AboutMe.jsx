@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "motion/react";
 import Image from "next/image";
-import aboutMe from "@/public/about/aboutMe.jpg";
+import aboutMe from "@/public/about/myPic.jpg";
 
 export default function AboutMe() {
   return (
@@ -17,7 +17,7 @@ export default function AboutMe() {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <div className="relative w-full h-[400px] rounded-lg overflow-hidden shadow-lg border-4 border-cyan-500">
+          <div className="relative w-full h-[450px] rounded-lg overflow-hidden shadow-lg border-4 border-cyan-500">
             <Image
               src={aboutMe}
               alt="Abdul Aziz Shishir"

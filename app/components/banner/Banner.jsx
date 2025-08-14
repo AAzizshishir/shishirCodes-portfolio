@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import { motion } from "motion/react";
-import profilePic from "@/public/profile/profile.jpg";
+import profilePic from "@/public/profile/myImage.jpg";
 import { Typewriter } from "react-simple-typewriter";
 import Link from "next/link";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
@@ -72,7 +72,7 @@ export default function Banner() {
         <Image
           src={profilePic}
           width={280}
-          height={280}
+          height={200}
           className="p-2 rounded-full bg-gradient-to-tr from-blue-500 to-purple-500 shadow-lg shadow-blue-500/50"
           alt="Abdul Aziz Shishir Profile Pic"
         />
