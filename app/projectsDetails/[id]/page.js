@@ -26,7 +26,7 @@ export default function ProjectDetail({ params }) {
       <img
         src={project.image}
         alt={project.name}
-        className="w-full h-64 object-cover rounded mb-6"
+        className="w-full h-72 object-cover rounded mb-6"
       />
 
       <h2 className="text-2xl font-semibold mb-2">Technology Stack</h2>

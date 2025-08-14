@@ -2,9 +2,11 @@ export const projects = [
   {
     id: 1,
     name: "State Hub",
+    subtitle:
+      "Smart filters, verified listings, and seamless browsing for every lifestyle",
     description:
       "A modern real estate listing platform that allows users to browse, search, and filter properties easily. Features include property details, image galleries, and contact options for agents",
-    image: "/projects/realState.png",
+    image: "/projects/stateHub.png",
     tech: ["React", "Tailwind", "Node.js", "MongoDB"],
     live: "https://real-estate-fb7a5.web.app/",
     github: "https://github.com/AAzizshishir/Real-Estate",
@@ -15,9 +17,11 @@ export const projects = [
   {
     id: 2,
     name: "Miles Matter",
+    subtitle:
+      "From registration to results—built for runners, organizers, and fans.",
     description:
       "A full-featured web platform for managing marathons, including registration, event schedules, and results.",
-    image: "/projects/marathon.png",
+    image: "/projects/milesMatter.png",
     tech: ["React", "Tailwind", "Node.js", "MongoDB"],
     live: "https://marathon-management-syst-fc189.web.app/",
     github: "https://github.com/AAzizshishir/marathon-management-system",
@@ -29,9 +33,11 @@ export const projects = [
   {
     id: 3,
     name: "Recipe Book",
+    subtitle:
+      "Discover, save, and customize recipes that fit your taste and routine",
     description:
       "A recipe sharing platform where users can browse, search, and share cooking recipes.",
-    image: "/projects/recipies.png",
+    image: "/projects/recipeBook.jpg",
     tech: ["React", "Firebase", "Tailwind"],
     live: "https://spiffy-alpaca-999b2f.netlify.app/",
     github: "https://github.com/AAzizshishir/RecipeBook",

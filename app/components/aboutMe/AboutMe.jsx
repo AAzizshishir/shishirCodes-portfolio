@@ -7,7 +7,7 @@ export default function AboutMe() {
   return (
     <section
       id="about"
-      className="py-16 px-4 md:px-10 scroll-mt-36 md:scroll-mt-16"
+      className="mt-16 px-4 md:px-10 scroll-mt-52 md:scroll-mt-16"
     >
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left Image */}
@@ -37,7 +37,7 @@ export default function AboutMe() {
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#38BDF8]">
             About Me
           </h2>
-          <p className="text-gray-300 leading-relaxed mb-4">
+          <p className="text-gray-300 leading-relaxed mb-3">
             I’m{" "}
             <span className="font-semibold text-white">Abdul Aziz Shishir</span>
             , a passionate Frontend & MERN Stack Developer who started my
@@ -48,7 +48,7 @@ export default function AboutMe() {
             mastered core web technologies, and developed a love for creating
             clean, functional, and visually appealing web applications.
           </p>
-          <p className="text-gray-300 leading-relaxed mb-4">
+          <p className="text-gray-300 leading-relaxed mb-3">
             I enjoy working on{" "}
             <span className="text-cyan-400">
               responsive, user-friendly websites
