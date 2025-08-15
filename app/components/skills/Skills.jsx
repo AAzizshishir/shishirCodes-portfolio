@@ -66,7 +66,7 @@ export default function Skills() {
             className="flex items-center justify-center gap-4 bg-[#122041] text-center py-2.5 rounded-md"
           >
             <div className="text-4xl">{skill.icon}</div>
-            <p className="mt-2 text-white text-lg font-semibold">
+            <p className="mt-2 text-white text-base md:text-lg font-semibold">
               {skill.label}
             </p>
           </div>
