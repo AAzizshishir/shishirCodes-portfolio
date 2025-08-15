@@ -86,7 +86,7 @@ export default function Skills() {
       <h2 className="text-3xl md:text-4xl font-bold mb-2 text-[#38BDF8] text-center">
         Technical Proficiency
       </h2>
-      <p className="mb-6 text-[#f8fafc] text-center w-[420px] mx-auto">
+      <p className="mb-6 text-[#f8fafc] text-center max-w-[420px] mx-auto">
         Building seamless web experiences with modern tools and frameworks.
       </p>
       <div className="space-y-6">

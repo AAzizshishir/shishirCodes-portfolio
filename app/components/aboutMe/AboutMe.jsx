@@ -12,7 +12,7 @@ export default function AboutMe() {
       <h2 className="text-3xl text-center md:text-4xl font-bold mb-2 text-[#38BDF8]">
         About Me
       </h2>
-      <p className="mb-6 w-[420px] mx-auto text-center">
+      <p className="mb-6 max-w-[420px] mx-auto text-center">
         Passionate Frontend & MERN Stack developer crafting intuitive web
         experiences with modern tech.
       </p>

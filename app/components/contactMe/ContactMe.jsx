@@ -56,8 +56,8 @@ export default function ContactMe() {
       <h2 className="text-3xl md:text-4xl font-bold mb-2 text-[#38BDF8] text-center">
         Get In Touch
       </h2>
-      <p className="text-center text-gray-600 dark:text-gray-300 mb-6">
-        Have a question or want to work together? Feel free to drop <br /> me a
+      <p className="text-center text-gray-600 dark:text-gray-300 mb-6 max-w-[420px] mx-auto">
+        Have a question or want to work together? Feel free to drop me a
         message. I'd love to hear from you!
       </p>
 

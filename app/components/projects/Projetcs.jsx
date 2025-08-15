@@ -13,7 +13,7 @@ export default function Projects() {
       <h2 className="text-3xl md:text-4xl font-bold mb-2 text-center text-[#38BDF8]">
         My Projects
       </h2>
-      <p className="mb-6 text-[#f8fafc] text-center w-[420px] mx-auto">
+      <p className="mb-6 text-[#f8fafc] text-center max-w-[420px] mx-auto">
         Showcasing practical solutions built with modern web technologies.
       </p>
 
