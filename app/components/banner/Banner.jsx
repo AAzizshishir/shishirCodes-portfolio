@@ -53,7 +53,7 @@ export default function Banner() {
             <FaFacebook size={24} className="hover:text-[#38BDF8] transition" />
           </Link>
           <Link
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/1wZli7yEYVrak9fKxMeyGJj-bPtWf7LOe/view?usp=sharing"
             download
             className="px-4 py-2 rounded-lg bg-gradient-to-r from-purple-500 to-indigo-500 text-white font-medium shadow-md hover:shadow-lg hover:scale-105 transition-transform duration-300"
           >
