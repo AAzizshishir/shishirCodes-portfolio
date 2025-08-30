@@ -1,8 +1,6 @@
 "use client";
-import Image from "next/image";
 import React from "react";
 import { motion } from "motion/react";
-import profilePic from "@/public/profile/myImage.jpg";
 import { Typewriter } from "react-simple-typewriter";
 import Link from "next/link";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
@@ -69,12 +67,10 @@ export default function Banner() {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        <Image
-          src={profilePic}
-          width={280}
-          height={200}
-          className="p-2 rounded-full bg-gradient-to-tr from-blue-500 to-purple-500 shadow-lg shadow-blue-500/50"
+        <img
+          src="https://i.ibb.co.com/rRV1RqVQ/myImage.jpg"
           alt="Abdul Aziz Shishir Profile Pic"
+          className="p-2 w-[300px] h-[300px] object-cover rounded-full bg-gradient-to-tr from-blue-500 to-purple-500 shadow-lg shadow-blue-500/50"
         />
       </motion.div>
     </section>
